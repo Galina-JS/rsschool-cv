@@ -6,16 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
         <div class="container">
             <header class="header">
                 <nav class="nav">
                     <ul class="nav-list">
+                      <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
                       <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                       <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                      <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+                      <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
                       <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                       <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
                       <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
@@ -24,23 +28,92 @@
 
             </header>
             
-            <!-- <figure>фото</figure> -->
+          
 
-            <main class="main-information">
+            <main class="main">
+
                 <div class="left-side">
 
                     <section class="section" id="name">
-                        <h1 class="section-title">Dolgikh Galina</h1> 
-                        <!-- photo     -->
+                        <figure class="main-info">
+
+                            <img class="photo" src="assets/C63A2131.png" alt="foto Vsevolod">
+                            <h1 class="section-title">Dolgikh Galina</h1> 
+
+                        </figure>
+
+                        
                     </section>
                     
                     <section class="section" id="contacts">
                         <h2 class="section-title">CONTACTS</h2>
-                        <!-- +контакты -->
+                        <ul>
+                            <li>
+                                <span class="icon"><i class="fa-brands fa-github"></i></span>
+                                <a href="https://github.com/Galina-JS" target="_blank">Github</a>
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fa-solid fa-phone"></i></span>
+                                +7(977)263-05-37
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fa-brands fa-telegram" target="_blank"></i></span>
+                                <a href="https://t.me/AlyTricks">Telegram</a>
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                                dolgikh.galina@yahoo.com
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fa-brands fa-discord"></i></span>
+                                Aly_JS
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fa-solid fa-location-pin"></i></i></span>
+                                Almaty, Kazakhstan
+                            </li>
+                        </ul>
                     </section>
 
                     <section class="section" id="education">
                         <h2 class="section-title">EDUCATION</h2>
+                        <ul>
+                            <li>
+                                <h5>2014-2018</h5>
+                                 <h4>National Research Technological University "MISiS"</h4>
+                                 <h4>Bachelor's degree in Standardization and Metrology</h4>
+                            </li>
+                            <li>
+                                <h5>2019-2020</h5>
+                                <h4>Six-month training at the linguistic center for learning English in Malta "in-lingva"</h4>
+                            </li>
+                        </ul>
+
+                    </section>
+
+                    <section class="section" id="languages">
+                        <h2 class="section-title">LANGUAGES</h2>
+                        <ul>
+                            <li>
+                                Russian: native 
+                                <span class="percent">
+                                <div style="width: 95%;"></div>
+                                </span>  
+                            </li>
+                            <li>
+                                English: B2+
+                                <span class="percent">
+                                    <div style="width: 70%;"></div>
+                                </span>  
+                            </li>
+                            <li>
+                                Spanish: A2+
+                                <span class="percent">
+                                    <div style="width: 20%;"></div>
+                                </span>  
+                            </li>
+                        </ul>
+
                     </section>
 
                 </div>
@@ -49,18 +122,72 @@
 
                     <section class="section" id="about-me">
                         <h2 class="section-title">ABOUT ME</h2>
+                        <p>Successful Math teacher with more than 8 years of professional experience. Seeking a career change to a position "junior frontend developer" and subsequently working in a team with the extraordinary prodjects.
+                        <br>
+                        <br>
+                        My greatest pasion is volontearing at shelters an healping homeless animals find loving owners and new homes. </p>
                     </section>
 
                     <section class="section" id="skills">
                         <h2 class="section-title">PROFESSIONAL SKILLS</h2>
+                        <div class="box">
+                            <h3>HTML5</h3>
+                            <div class="persent-skill">
+                                <div class="div-skill" style="width: 60%;"></div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <h3>CSS3</h3>
+                            <div class="persent-skill">
+                                <div class="div-skill" style="width: 50%;"></div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <h3>JS core</h3>
+                            <div class="persent-skill">
+                                <div class="div-skill" style="width: 20%;"></div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <h3>Git</h3>
+                            <div class="persent-skill">
+                                <div class="div-skill" style="width: 30%;"></div>
+                            </div>
+                        </div>
+                        
+
                     </section>
 
                     <section class="section" id="experience">
                         <h2 class="section-title">EXPERIENCE</h2>
+
+                        <div class="div-experience">
+                        <h3>Project:</h3>
+                        <a class="a-project" href="https://Galina-JS.github.io/rsschool-cv/cv" target="_blank">CV</a>
+                        </div>
+
                     </section>
 
                     <section class="section" id="code">
                         <h2 class="section-title">CODE EXAMPLE</h2>
+
+                        <h3>Task:</h3>
+                    <p> Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number.
+                        <br>
+                        <br>
+                        createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns "(123) 456-7890"
+                    </p>
+                    <br>
+                    <h3>Solution: </h3>
+
+    <code>let chunk1 = `(${numbers[0]}${numbers[1]}${numbers[2]})`;
+        <br>
+        let chunk2 = `${numbers[3]}${numbers[4]}${numbers[5]}- ${numbers[6]}${numbers[7]}${numbers[8]}${numbers[9]}`;
+        <br>
+        let res = `${chunk1} ${chunk2}`;
+        <br>
+        return res;</code>
+
                     </section>
 
                 </div>
