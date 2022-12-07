@@ -230,3 +230,19 @@ h2 {
   align-self: center;
 }
 
+/* MEDIA REQUEST */
+@media (max-width: 760px) {
+
+  .container {
+    margin: 10px;
+  }
+
+  .main {
+    grid-template-columns: repeat(1, 1fr);
+    left: 0;
+  }
+  .nav-item {
+    font-size: 60%;
+    margin-left: 5px;
+  }
+}
